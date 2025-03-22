@@ -1,5 +1,5 @@
 # search biggest number in an array
-def functionName(arr):
+def biggest_num(arr):
     max_num = arr[0]
     for num in arr:
         if num > max_num:
