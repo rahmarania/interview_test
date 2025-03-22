@@ -1,4 +1,4 @@
-def toBiner(num):
+def toBinary(num):
   if num==0 :
     return '0b0'
   else:
