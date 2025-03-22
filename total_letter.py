@@ -1,4 +1,4 @@
 # count total letter of the word
-def functionName(words):
+def totalLeter(words):
     word = words.split('')
     return len(word)
