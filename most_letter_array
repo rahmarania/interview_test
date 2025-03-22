@@ -1,0 +1,10 @@
+# count letter most appear  
+def nameFunction(words):
+    count_letter = {}
+    for letter in words:
+        if letter in count_letter:
+            count_letter[letter] += 1
+        else:
+            count_letter[letter] = 1
+    most_letter = max(count_letter, key = count_letter.get)
+    return most_letter
