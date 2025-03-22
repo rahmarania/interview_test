@@ -1,5 +1,5 @@
 # sorting number from smallest to biggest
-def functionName(arr):
+def sorting_arr(arr):
     for i in range(len(arr)):
         min_index = i
         for j in range(i+1, len(arr)):
